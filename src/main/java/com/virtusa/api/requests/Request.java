@@ -8,9 +8,19 @@ public abstract class Request {
 	private int requestNumber;
 	private String requestMethod;
 	private String body;
+	private RequestComponents requestComponents;
 	private ServiceRequestProperties serviceRequestProp;
 	
 	
+	
+	public RequestComponents getRequestComponents() {
+		return requestComponents;
+	}
+
+	public void setRequestComponents(RequestComponents requestComponents) {
+		this.requestComponents = requestComponents;
+	}
+
 	public ServiceRequestProperties getServiceRequestProp() {
 		return serviceRequestProp;
 	}
@@ -49,9 +59,11 @@ public abstract class Request {
 	public void setRequestnumber(int requestnumber) {
 		this.requestNumber = requestnumber;
 	}
+	
 	 public int hashCode() {
 	        return requestNumber;
 	    }
+	 
 	 public boolean equals(Object obj) {
 	        if (this == obj)
 	            return true;

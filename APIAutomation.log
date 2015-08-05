@@ -1,1 +1,857 @@
 2015-07-15 08:13:26 INFO  RequestFileLoader:18 - get directoryes from :C:/Users/camarathunga/Desktop/temp/apiautomation
+2015-07-30 12:42:17 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is application.properties
+2015-07-30 12:42:17 DEBUG ConfigurationUtils:523 - Loading configuration from the path application.properties
+2015-07-30 12:43:45 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is application.properties
+2015-07-30 12:43:45 DEBUG ConfigurationUtils:523 - Loading configuration from the path application.properties
+2015-07-30 13:08:49 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is application.properties
+2015-07-30 13:08:49 DEBUG ConfigurationUtils:523 - Loading configuration from the path application.properties
+2015-07-30 13:15:11 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is application1.properties
+2015-07-30 13:21:28 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:21:28 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:21:28 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:21:28 DEBUG sax:1375 - startDocument()
+2015-07-30 13:21:28 ERROR Digester:1655 - Parse Fatal Error at line 1 column 44: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1765)
+	at org.apache.commons.configuration.ConfigurationFactory.getConfiguration(ConfigurationFactory.java:184)
+	at com.virtusa.api.APIAutomation.App.main(App.java:63)
+2015-07-30 13:21:28 ERROR ConfigurationFactory:189 - SAX Exception caught
+org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1765)
+	at org.apache.commons.configuration.ConfigurationFactory.getConfiguration(ConfigurationFactory.java:184)
+	at com.virtusa.api.APIAutomation.App.main(App.java:63)
+2015-07-30 13:22:52 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:22:52 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:22:52 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:22:52 DEBUG sax:1375 - startDocument()
+2015-07-30 13:22:52 ERROR Digester:1655 - Parse Fatal Error at line 1 column 44: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1765)
+	at org.apache.commons.configuration.ConfigurationFactory.getConfiguration(ConfigurationFactory.java:184)
+	at com.virtusa.api.APIAutomation.App.main(App.java:62)
+2015-07-30 13:22:52 ERROR ConfigurationFactory:189 - SAX Exception caught
+org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.commons.digester.Digester.parse(Digester.java:1765)
+	at org.apache.commons.configuration.ConfigurationFactory.getConfiguration(ConfigurationFactory.java:184)
+	at com.virtusa.api.APIAutomation.App.main(App.java:62)
+2015-07-30 13:27:03 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:27:03 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:27:03 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:27:03 DEBUG sax:1375 - startDocument()
+2015-07-30 13:27:03 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 13:27:03 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 13:27:03 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 13:27:03 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 13:27:03 DEBUG sax:1094 - characters(
+  )
+2015-07-30 13:27:03 DEBUG sax:1410 - startElement(,,system)
+2015-07-30 13:27:03 DEBUG Digester:1417 -   Pushing body text '
+  '
+2015-07-30 13:27:03 DEBUG Digester:1436 -   New match='configuration/system'
+2015-07-30 13:27:03 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$SystemConfigurationFactory@110b053]
+2015-07-30 13:27:03 DEBUG Digester:393 - [FactoryCreateRule]{configuration/system} New org.apache.commons.configuration.SystemConfiguration
+2015-07-30 13:27:03 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:27:03 DEBUG Digester:244 - [SetPropertiesRule]{configuration/system} Set org.apache.commons.configuration.SystemConfiguration properties
+2015-07-30 13:27:03 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.SystemConfiguration@18e2b22, {})
+2015-07-30 13:27:03 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:27:03 DEBUG sax:1164 - endElement(,,system)
+2015-07-30 13:27:03 DEBUG Digester:1167 -   match='configuration/system'
+2015-07-30 13:27:03 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:27:03 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$SystemConfigurationFactory@110b053]
+2015-07-30 13:27:03 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:27:03 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:27:03 DEBUG Digester:1210 -   Popping body text '
+  '
+2015-07-30 13:27:03 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:27:03 DEBUG Digester:195 - [SetNextRule]{configuration/system} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.SystemConfiguration@18e2b22)
+2015-07-30 13:27:03 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:27:03 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$SystemConfigurationFactory@110b053]
+2015-07-30 13:27:03 DEBUG Digester:425 - [FactoryCreateRule]{configuration/system} Pop org.apache.commons.configuration.SystemConfiguration
+2015-07-30 13:27:03 DEBUG sax:1094 - characters(
+  )
+2015-07-30 13:27:03 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 13:27:03 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 13:27:03 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 13:27:03 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@f84386]
+2015-07-30 13:27:03 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:27:03 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:27:03 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 13:27:03 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 13:27:03 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@1abab88, {fileName=application.properties})
+2015-07-30 13:27:03 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 13:27:03 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:27:03 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:27:03 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 13:27:03 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 13:27:03 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:27:03 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@f84386]
+2015-07-30 13:27:03 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:27:03 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:27:03 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:27:03 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 13:27:03 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:27:03 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@1abab88)
+2015-07-30 13:27:03 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:27:03 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 13:27:03 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 13:27:03 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 13:27:03 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:27:03 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@f84386]
+2015-07-30 13:27:03 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:27:03 DEBUG sax:1094 - characters(
+)
+2015-07-30 13:27:03 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 13:27:03 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 13:27:03 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 13:27:03 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 13:27:03 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 13:27:03 DEBUG sax:1114 - endDocument()
+2015-07-30 13:29:16 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:29:16 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:29:16 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:29:16 DEBUG sax:1375 - startDocument()
+2015-07-30 13:29:16 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 13:29:16 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 13:29:16 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 13:29:16 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 13:29:16 DEBUG sax:1094 - characters(
+  )
+2015-07-30 13:29:16 DEBUG sax:1410 - startElement(,,system)
+2015-07-30 13:29:16 DEBUG Digester:1417 -   Pushing body text '
+  '
+2015-07-30 13:29:16 DEBUG Digester:1436 -   New match='configuration/system'
+2015-07-30 13:29:16 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$SystemConfigurationFactory@110b053]
+2015-07-30 13:29:16 DEBUG Digester:393 - [FactoryCreateRule]{configuration/system} New org.apache.commons.configuration.SystemConfiguration
+2015-07-30 13:29:16 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:29:16 DEBUG Digester:244 - [SetPropertiesRule]{configuration/system} Set org.apache.commons.configuration.SystemConfiguration properties
+2015-07-30 13:29:16 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.SystemConfiguration@18e2b22, {})
+2015-07-30 13:29:16 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:29:16 DEBUG sax:1164 - endElement(,,system)
+2015-07-30 13:29:16 DEBUG Digester:1167 -   match='configuration/system'
+2015-07-30 13:29:16 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:29:16 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$SystemConfigurationFactory@110b053]
+2015-07-30 13:29:16 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:29:16 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:29:16 DEBUG Digester:1210 -   Popping body text '
+  '
+2015-07-30 13:29:16 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:29:16 DEBUG Digester:195 - [SetNextRule]{configuration/system} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.SystemConfiguration@18e2b22)
+2015-07-30 13:29:16 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:29:16 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$SystemConfigurationFactory@110b053]
+2015-07-30 13:29:16 DEBUG Digester:425 - [FactoryCreateRule]{configuration/system} Pop org.apache.commons.configuration.SystemConfiguration
+2015-07-30 13:29:16 DEBUG sax:1094 - characters(
+  )
+2015-07-30 13:29:16 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 13:29:16 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 13:29:16 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 13:29:16 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@f84386]
+2015-07-30 13:29:16 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:29:16 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:29:16 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 13:29:16 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 13:29:16 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@1abab88, {fileName=application.properties})
+2015-07-30 13:29:16 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 13:29:16 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:29:16 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:29:16 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 13:29:16 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 13:29:16 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:29:16 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@f84386]
+2015-07-30 13:29:16 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:29:16 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:29:16 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:29:16 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 13:29:16 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:29:16 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@1abab88)
+2015-07-30 13:29:16 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:29:16 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 13:29:16 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 13:29:16 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 13:29:16 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:29:16 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@f84386]
+2015-07-30 13:29:16 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:29:16 DEBUG sax:1094 - characters(
+)
+2015-07-30 13:29:16 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 13:29:16 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 13:29:16 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 13:29:16 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 13:29:16 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 13:29:16 DEBUG sax:1114 - endDocument()
+2015-07-30 13:30:39 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:30:39 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:30:39 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:30:39 DEBUG sax:1375 - startDocument()
+2015-07-30 13:30:39 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 13:30:39 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 13:30:39 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 13:30:39 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 13:30:39 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 13:30:39 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 13:30:39 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 13:30:39 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 13:30:39 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:30:39 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:30:39 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:30:39 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 13:30:39 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 13:30:39 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@15d56d5, {fileName=application.properties})
+2015-07-30 13:30:39 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 13:30:39 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:30:39 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:30:39 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 13:30:39 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 13:30:39 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:30:39 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:30:39 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:30:39 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:30:39 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:30:39 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 13:30:39 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:30:39 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@15d56d5)
+2015-07-30 13:30:39 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:30:39 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 13:30:39 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 13:30:39 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 13:30:39 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:30:39 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:30:39 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:30:39 DEBUG sax:1094 - characters(
+)
+2015-07-30 13:30:39 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 13:30:39 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 13:30:39 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 13:30:39 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 13:30:39 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 13:30:39 DEBUG sax:1114 - endDocument()
+2015-07-30 13:45:20 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:45:20 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:45:20 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:45:20 DEBUG sax:1375 - startDocument()
+2015-07-30 13:45:20 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 13:45:20 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 13:45:20 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 13:45:20 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 13:45:20 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 13:45:20 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 13:45:20 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 13:45:20 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 13:45:20 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:45:20 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:45:20 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:45:20 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 13:45:20 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 13:45:20 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@1194a4e, {fileName=application.properties})
+2015-07-30 13:45:20 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 13:45:20 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:45:20 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:45:20 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 13:45:20 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 13:45:20 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:45:20 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:45:20 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:45:20 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:45:20 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:45:20 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 13:45:20 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:45:20 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@1194a4e)
+2015-07-30 13:45:20 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:45:20 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 13:45:20 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 13:45:20 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 13:45:20 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:45:20 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:45:20 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:45:20 DEBUG sax:1094 - characters(
+)
+2015-07-30 13:45:20 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 13:45:20 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 13:45:20 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 13:45:20 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 13:45:20 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 13:45:20 DEBUG sax:1114 - endDocument()
+2015-07-30 13:46:30 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:46:30 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:46:30 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:46:30 DEBUG sax:1375 - startDocument()
+2015-07-30 13:46:30 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 13:46:30 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 13:46:30 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 13:46:30 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 13:46:30 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 13:46:30 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 13:46:30 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 13:46:30 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 13:46:30 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:46:30 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:46:30 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:46:30 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 13:46:30 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 13:46:30 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@1194a4e, {fileName=application.properties})
+2015-07-30 13:46:30 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 13:46:30 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:46:30 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:46:30 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 13:46:30 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 13:46:30 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:46:30 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:46:30 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:46:30 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:46:30 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:46:30 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 13:46:30 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:46:30 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@1194a4e)
+2015-07-30 13:46:30 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:46:30 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 13:46:30 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 13:46:30 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 13:46:30 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:46:30 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:46:30 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:46:30 DEBUG sax:1094 - characters(
+)
+2015-07-30 13:46:30 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 13:46:30 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 13:46:30 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 13:46:30 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 13:46:30 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 13:46:30 DEBUG sax:1114 - endDocument()
+2015-07-30 13:47:19 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:47:19 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:47:19 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@87816d)
+2015-07-30 13:47:19 DEBUG sax:1375 - startDocument()
+2015-07-30 13:47:19 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 13:47:19 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 13:47:19 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 13:47:19 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 13:47:19 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 13:47:19 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 13:47:19 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 13:47:19 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 13:47:19 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@111a3ac]
+2015-07-30 13:47:19 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:47:19 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:47:19 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 13:47:19 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 13:47:19 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@f84386, {fileName=application.properties})
+2015-07-30 13:47:19 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 13:47:19 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:47:19 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:47:19 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 13:47:19 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 13:47:19 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:47:19 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@111a3ac]
+2015-07-30 13:47:19 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:47:19 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:47:19 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:47:19 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 13:47:19 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:47:19 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@f84386)
+2015-07-30 13:47:19 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:47:19 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 13:47:19 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 13:47:19 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 13:47:19 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:47:19 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@111a3ac]
+2015-07-30 13:47:19 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:47:19 DEBUG sax:1094 - characters(
+)
+2015-07-30 13:47:19 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 13:47:19 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 13:47:19 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 13:47:19 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 13:47:19 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 13:47:19 DEBUG sax:1114 - endDocument()
+2015-07-30 13:56:17 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 13:56:17 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 13:56:17 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 13:56:17 DEBUG sax:1375 - startDocument()
+2015-07-30 13:56:17 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 13:56:17 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 13:56:17 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 13:56:17 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 13:56:17 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 13:56:17 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 13:56:17 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 13:56:17 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 13:56:17 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:56:17 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:56:17 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 13:56:17 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 13:56:17 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 13:56:17 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@1194a4e, {fileName=application.properties})
+2015-07-30 13:56:17 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 13:56:17 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:56:17 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:56:17 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 13:56:17 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 13:56:17 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 13:56:17 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:56:17 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 13:56:17 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:56:17 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:56:17 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 13:56:17 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 13:56:17 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@1194a4e)
+2015-07-30 13:56:17 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 13:56:17 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 13:56:17 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 13:56:17 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 13:56:17 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 13:56:17 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 13:56:17 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 13:56:17 DEBUG sax:1094 - characters(
+)
+2015-07-30 13:56:17 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 13:56:17 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 13:56:17 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 13:56:17 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 13:56:17 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 13:56:17 DEBUG sax:1114 - endDocument()
+2015-07-30 14:04:43 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 14:04:43 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 14:04:43 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@112f614)
+2015-07-30 14:04:43 DEBUG sax:1375 - startDocument()
+2015-07-30 14:04:43 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 14:04:43 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 14:04:43 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 14:04:43 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 14:04:43 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 14:04:43 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 14:04:43 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 14:04:43 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 14:04:43 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@a83b8a]
+2015-07-30 14:04:43 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 14:04:43 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 14:04:43 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 14:04:43 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 14:04:43 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@15d56d5, {fileName=application.properties})
+2015-07-30 14:04:43 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 14:04:43 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 14:04:43 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 14:04:43 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 14:04:43 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 14:04:43 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 14:04:43 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@a83b8a]
+2015-07-30 14:04:43 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 14:04:43 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 14:04:43 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 14:04:43 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 14:04:43 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 14:04:43 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@15d56d5)
+2015-07-30 14:04:43 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 14:04:43 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 14:04:43 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 14:04:43 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 14:04:43 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 14:04:43 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@a83b8a]
+2015-07-30 14:04:43 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 14:04:43 DEBUG sax:1094 - characters(
+)
+2015-07-30 14:04:43 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 14:04:43 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 14:04:43 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 14:04:43 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 14:04:43 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 14:04:43 DEBUG sax:1114 - endDocument()
+2015-07-30 16:17:38 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 16:17:38 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 16:17:38 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 16:17:38 DEBUG sax:1375 - startDocument()
+2015-07-30 16:17:38 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 16:17:38 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 16:17:38 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 16:17:38 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 16:17:38 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 16:17:38 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 16:17:38 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 16:17:38 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 16:17:38 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:17:38 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:17:38 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 16:17:38 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 16:17:38 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 16:17:38 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@1194a4e, {fileName=application.properties})
+2015-07-30 16:17:38 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 16:17:38 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:17:38 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:17:38 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 16:17:38 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 16:17:38 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 16:17:38 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:17:38 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 16:17:38 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:17:38 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:17:38 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 16:17:38 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:17:38 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@1194a4e)
+2015-07-30 16:17:38 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:17:38 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 16:17:38 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 16:17:38 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 16:17:38 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 16:17:38 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:17:38 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:17:38 DEBUG sax:1094 - characters(
+)
+2015-07-30 16:17:38 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 16:17:38 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 16:17:38 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 16:17:38 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 16:17:38 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 16:17:38 DEBUG sax:1114 - endDocument()
+2015-07-30 16:18:15 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 16:18:15 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 16:18:15 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 16:18:15 DEBUG sax:1375 - startDocument()
+2015-07-30 16:18:15 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 16:18:15 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 16:18:15 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 16:18:15 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 16:18:15 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 16:18:15 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 16:18:15 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 16:18:15 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 16:18:15 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:18:15 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:18:15 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 16:18:15 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 16:18:15 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 16:18:15 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@15d56d5, {fileName=application.properties})
+2015-07-30 16:18:15 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 16:18:15 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:18:15 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:18:15 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 16:18:15 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 16:18:15 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 16:18:15 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:18:15 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 16:18:15 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:18:15 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:18:15 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 16:18:15 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:18:15 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@15d56d5)
+2015-07-30 16:18:15 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:18:15 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 16:18:15 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 16:18:15 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 16:18:15 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 16:18:15 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:18:15 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:18:15 DEBUG sax:1094 - characters(
+)
+2015-07-30 16:18:15 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 16:18:15 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 16:18:15 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 16:18:15 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 16:18:15 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 16:18:15 DEBUG sax:1114 - endDocument()
+2015-07-30 16:19:33 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 16:19:33 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 16:19:33 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@422ede)
+2015-07-30 16:19:33 DEBUG sax:1375 - startDocument()
+2015-07-30 16:19:33 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 16:19:33 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 16:19:33 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 16:19:33 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 16:19:33 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 16:19:33 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 16:19:33 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 16:19:33 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 16:19:33 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:19:33 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:19:33 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 16:19:33 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 16:19:33 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 16:19:33 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@1194a4e, {fileName=application.properties})
+2015-07-30 16:19:33 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 16:19:33 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:19:33 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:19:33 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 16:19:33 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 16:19:33 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 16:19:33 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:19:33 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 16:19:33 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:19:33 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:19:33 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 16:19:33 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:19:33 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@1194a4e)
+2015-07-30 16:19:33 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:19:33 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 16:19:33 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 16:19:33 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 16:19:33 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 16:19:33 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@110b053]
+2015-07-30 16:19:33 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:19:33 DEBUG sax:1094 - characters(
+)
+2015-07-30 16:19:33 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 16:19:33 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 16:19:33 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 16:19:33 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 16:19:33 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 16:19:33 DEBUG sax:1114 - endDocument()
+2015-07-30 16:22:57 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 16:22:57 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 16:22:57 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@112f614)
+2015-07-30 16:22:57 DEBUG sax:1375 - startDocument()
+2015-07-30 16:22:57 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 16:22:57 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 16:22:57 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 16:22:57 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 16:22:57 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 16:22:57 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 16:22:57 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 16:22:57 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 16:22:57 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@a83b8a]
+2015-07-30 16:22:57 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:22:57 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 16:22:57 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 16:22:57 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 16:22:57 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@15d56d5, {fileName=application.properties})
+2015-07-30 16:22:57 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 16:22:57 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:22:57 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:22:57 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 16:22:57 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 16:22:57 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 16:22:57 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@a83b8a]
+2015-07-30 16:22:57 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 16:22:57 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:22:57 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:22:57 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 16:22:57 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:22:57 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@15d56d5)
+2015-07-30 16:22:57 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:22:57 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 16:22:57 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 16:22:57 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 16:22:57 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 16:22:57 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@a83b8a]
+2015-07-30 16:22:57 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:22:57 DEBUG sax:1094 - characters(
+)
+2015-07-30 16:22:57 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 16:22:57 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 16:22:57 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 16:22:57 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 16:22:57 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 16:22:57 DEBUG sax:1114 - endDocument()
+2015-07-30 16:23:28 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is config.xml
+2015-07-30 16:23:28 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\config.xml
+2015-07-30 16:23:28 DEBUG sax:1341 - setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@87816d)
+2015-07-30 16:23:28 DEBUG sax:1375 - startDocument()
+2015-07-30 16:23:28 DEBUG sax:1410 - startElement(,,configuration)
+2015-07-30 16:23:28 DEBUG Digester:1417 -   Pushing body text ''
+2015-07-30 16:23:28 DEBUG Digester:1436 -   New match='configuration'
+2015-07-30 16:23:28 DEBUG Digester:1464 -   No rules found matching 'configuration'.
+2015-07-30 16:23:28 DEBUG sax:1094 - characters(
+  
+  )
+2015-07-30 16:23:28 DEBUG sax:1410 - startElement(,,properties)
+2015-07-30 16:23:28 DEBUG Digester:1417 -   Pushing body text '
+  
+  '
+2015-07-30 16:23:28 DEBUG Digester:1436 -   New match='configuration/properties'
+2015-07-30 16:23:28 DEBUG Digester:1451 -   Fire begin() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@111a3ac]
+2015-07-30 16:23:28 DEBUG Digester:393 - [FactoryCreateRule]{configuration/properties} New org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:23:28 DEBUG Digester:1451 -   Fire begin() for SetPropertiesRule[]
+2015-07-30 16:23:28 DEBUG Digester:204 - [SetPropertiesRule]{configuration/properties} Setting property 'fileName' to 'application.properties'
+2015-07-30 16:23:28 DEBUG Digester:244 - [SetPropertiesRule]{configuration/properties} Set org.apache.commons.configuration.PropertiesConfiguration properties
+2015-07-30 16:23:28 DEBUG BeanUtils:795 - BeanUtils.populate(org.apache.commons.configuration.PropertiesConfiguration@f84386, {fileName=application.properties})
+2015-07-30 16:23:28 DEBUG ConvertUtils:418 - Convert string 'application.properties' to class 'java.lang.String'
+2015-07-30 16:23:28 DEBUG Digester:1451 -   Fire begin() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:23:28 DEBUG Digester:1451 -   Fire begin() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:23:28 DEBUG sax:1164 - endElement(,,properties)
+2015-07-30 16:23:28 DEBUG Digester:1167 -   match='configuration/properties'
+2015-07-30 16:23:28 DEBUG Digester:1168 -   bodyText=''
+2015-07-30 16:23:28 DEBUG Digester:1190 -   Fire body() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@111a3ac]
+2015-07-30 16:23:28 DEBUG Digester:1190 -   Fire body() for SetPropertiesRule[]
+2015-07-30 16:23:28 DEBUG Digester:1190 -   Fire body() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:23:28 DEBUG Digester:1190 -   Fire body() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:23:28 DEBUG Digester:1210 -   Popping body text '
+  
+  '
+2015-07-30 16:23:28 DEBUG Digester:1220 -   Fire end() for SetNextRule[methodName=addConfiguration, paramType=org.apache.commons.configuration.Configuration]
+2015-07-30 16:23:28 DEBUG Digester:195 - [SetNextRule]{configuration/properties} Call org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder.addConfiguration(org.apache.commons.configuration.PropertiesConfiguration@f84386)
+2015-07-30 16:23:28 DEBUG Digester:1220 -   Fire end() for CallMethodRule[methodName=load, paramCount=0, paramTypes={}]
+2015-07-30 16:23:28 DEBUG Digester:615 - [CallMethodRule]{configuration/properties} Call org.apache.commons.configuration.PropertiesConfiguration.load()
+2015-07-30 16:23:28 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is C:\Projects\research\personal\APIAutomation\trunk, name is application.properties
+2015-07-30 16:23:28 DEBUG ConfigurationUtils:523 - Loading configuration from the path C:\Projects\research\personal\APIAutomation\trunk\application.properties
+2015-07-30 16:23:28 DEBUG Digester:1220 -   Fire end() for SetPropertiesRule[]
+2015-07-30 16:23:28 DEBUG Digester:1220 -   Fire end() for FactoryCreateRule[className=null, attributeName=null, creationFactory=org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory@111a3ac]
+2015-07-30 16:23:28 DEBUG Digester:425 - [FactoryCreateRule]{configuration/properties} Pop org.apache.commons.configuration.PropertiesConfiguration
+2015-07-30 16:23:28 DEBUG sax:1094 - characters(
+)
+2015-07-30 16:23:28 DEBUG sax:1164 - endElement(,,configuration)
+2015-07-30 16:23:28 DEBUG Digester:1167 -   match='configuration'
+2015-07-30 16:23:28 DEBUG Digester:1168 -   bodyText='
+  
+  
+'
+2015-07-30 16:23:28 DEBUG Digester:1203 -   No rules found matching 'configuration'.
+2015-07-30 16:23:28 DEBUG Digester:1210 -   Popping body text ''
+2015-07-30 16:23:28 DEBUG sax:1114 - endDocument()
+2015-08-05 10:23:34 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:23:34 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:30:41 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:30:41 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:39:15 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:39:15 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:41:26 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:41:26 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:41:48 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:41:48 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:42:08 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:42:08 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:43:14 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:43:14 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:43:38 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:43:38 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:43:47 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:43:47 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:43:59 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:43:59 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:44:06 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:44:06 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 10:45:52 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 10:45:52 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties

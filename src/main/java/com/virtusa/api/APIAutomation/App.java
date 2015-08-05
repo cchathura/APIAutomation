@@ -1,24 +1,18 @@
 package com.virtusa.api.APIAutomation;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
+import org.apache.commons.configuration.Configuration;
+import org.apache.commons.configuration.ConfigurationException;
+import org.apache.commons.configuration.ConfigurationFactory;
+import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.log4j.Logger;
 
-import PropertyLoader.PropertyLoader;
-import PropertyLoader.ReadPropertyFile;
-import PropertyLoader.ServicePropertyLoader;
-
-import com.virtusa.api.requestLoader.RequestFileLoader;
-import com.virtusa.api.requestLoader.RequestLoader;
-import com.virtusa.api.serviceCaller.ServiceCaller;
-import com.virtusa.api.serviceCaller.RESTServiceCaller;
-import com.virtusa.api.serviceCaller.ServiceRequestProperties;
-import com.virtusa.api.serviceCallerFactory.ServiceCallerFactory;
+import com.virtusa.api.propertyReader.PropertyReader;
+import com.virtusa.api.requests.RESTRequest;
+import com.virtusa.api.requests.Request;
 
 /**
  * Hello world!
@@ -52,7 +46,7 @@ public class App
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}*/
-    	RequestFileLoader rfl = new RequestFileLoader();
+    	/*RequestFileLoader rfl = new RequestFileLoader();
     	Map<String,String> propertyFiles=rfl.getAllPropertyFiles("C:/Users/camarathunga/Desktop/temp/apiautomation");
     	for (Object obj : propertyFiles.keySet()) {
 			System.out.println("a: "+ propertyFiles.get((String)obj));
@@ -66,6 +60,37 @@ public class App
 			}
 			
 		}
+    	
+    	ConfigurationFactory factory = new ConfigurationFactory("config.xml");
+    	 		try {
+    	 			Configuration config = factory.getConfiguration();
+    	 			Iterator<String> keys = config.getKeys();
+    	 	    	List<String> keyList = new ArrayList<String>();
+    	 	    	    while(keys.hasNext()){
+    	 	    	    	String keyName=keys.next();
+    	 	    	    	if(keyName.contains("requestProperties")){
+    	 	    	    keyList.add(keyName);
+    	 	    	    	}
+    	 	    	}
+    	 	    	    System.out.println("chathura testing======");
+    	 	    	    
+    	 	    	    System.out.println(keyList);
+    	 	    	    for (String kName : keyList) {
+							System.out.println(config.getString(kName)); 
+						}
+		} catch (ConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+    	PropertyReader propReader = new PropertyReader();
+    	Request request = new RESTRequest();
+    	try {
+    		request=propReader.createRequestObj("propertyFile.properties");
+		} catch (ConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	System.out.println(request.getRequestComponents().getRequestMethod());
     }
     
 }

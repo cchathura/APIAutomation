@@ -8,8 +8,8 @@ import com.virtusa.api.serviceCaller.ServiceCaller;
 import com.virtusa.api.serviceCaller.ServiceRequestProperties;
 
 public class ServiceCallerFactory {
-public static ServiceCaller createServiceCaller(ServiceType serviceType){
-	if("REST".equalsIgnoreCase(ServiceType.REST.getServiceType())){
+public static ServiceCaller createServiceCaller(String serviceType){
+	if(serviceType.equalsIgnoreCase(ServiceType.REST.getServiceType())){
 		return new RESTServiceCaller();
 	}else{
 		return null;

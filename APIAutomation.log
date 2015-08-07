@@ -855,3 +855,299 @@ org.xml.sax.SAXParseException: The processing instruction target matching "[xX][
 2015-08-05 10:44:06 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
 2015-08-05 10:45:52 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
 2015-08-05 10:45:52 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-05 12:02:25 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-05 12:02:25 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 15:28:55 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 15:28:55 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 15:39:48 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 15:39:48 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 15:39:48 INFO  RequestManager:63 - request Naumber 1
+2015-08-06 15:44:58 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 15:44:58 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 15:45:18 INFO  RequestManager:63 - request Naumber 1
+2015-08-06 15:47:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 15:47:12 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 15:47:12 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 15:47:12 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 15:55:31 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 15:55:31 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 15:55:31 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 15:55:31 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 15:56:26 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 15:56:26 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 15:56:26 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 15:56:26 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 16:03:57 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 16:03:57 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 16:03:57 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 16:03:57 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 16:06:54 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 16:06:54 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 16:06:54 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 16:06:54 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 16:07:31 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 16:07:31 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 16:07:31 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 16:07:31 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 16:07:36 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 16:07:36 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 16:07:36 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 16:07:36 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 16:07:36 INFO  RESTServiceCaller:102 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-06 16:59:45 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 16:59:45 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 16:59:45 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 16:59:45 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 16:59:57 INFO  RESTServiceCaller:102 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-06 17:04:00 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 17:04:00 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 17:04:00 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 17:04:00 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 17:04:03 INFO  RESTServiceCaller:102 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-06 17:05:23 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 17:05:23 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 17:05:24 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 17:05:24 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 17:05:24 INFO  RESTServiceCaller:102 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-06 17:05:51 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 17:05:51 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 17:05:51 INFO  RequestManager:64 - request Naumber 1
+2015-08-06 17:05:51 INFO  RequestManager:53 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 17:06:00 INFO  RESTServiceCaller:102 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-06 17:20:38 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 17:20:38 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 17:20:38 INFO  RequestManager:65 - request Naumber 1
+2015-08-06 17:20:38 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 17:21:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-06 17:21:12 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-06 17:21:12 INFO  RequestManager:65 - request Naumber 1
+2015-08-06 17:21:12 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-06 17:21:12 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-06 17:21:12 INFO  RESTServiceCaller:103 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:03:47 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:03:47 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:03:47 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:03:47 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:03:47 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:03:51 INFO  RESTServiceCaller:103 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:04:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:04:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:04:27 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:04:27 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:04:27 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:04:27 INFO  RESTServiceCaller:103 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:05:57 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:05:57 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:05:57 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:05:57 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:05:57 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:05:57 INFO  RESTServiceCaller:104 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:06:28 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:06:28 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:06:28 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:06:28 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:06:28 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:06:28 INFO  RESTServiceCaller:104 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:06:28 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 08:07:04 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:07:04 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:07:04 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:07:04 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:07:04 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:07:04 INFO  RESTServiceCaller:104 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:08:07 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:08:07 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:08:07 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:08:07 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:08:07 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:08:07 INFO  RESTServiceCaller:104 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:08:07 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 08:08:07 INFO  RESTServiceCaller:55 - set request Property requestProperties2 Accept
+2015-08-07 08:08:07 INFO  RESTServiceCaller:55 - set request Property requestProperties1 Authorization
+2015-08-07 08:08:24 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:08:24 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:08:24 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:08:24 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:08:24 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:08:24 INFO  RESTServiceCaller:104 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:08:24 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 08:08:24 INFO  RESTServiceCaller:55 - set request Property requestProperties2 Accept
+2015-08-07 08:08:24 INFO  RESTServiceCaller:55 - set request Property requestProperties1 Authorization
+2015-08-07 08:13:49 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:13:49 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:13:49 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:13:49 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:13:49 INFO  RESTServiceCaller:67 - add Observer to observerList
+2015-08-07 08:13:49 INFO  RESTServiceCaller:104 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:13:49 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 08:13:49 INFO  RESTServiceCaller:55 - set request Property requestProperties2 Accept application/json
+2015-08-07 08:13:49 INFO  RESTServiceCaller:55 - set request Property requestProperties1 Authorization Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 08:26:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:26:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:26:27 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:26:27 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:26:27 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 08:26:27 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:26:27 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 08:27:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 08:27:12 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 08:27:12 INFO  RequestManager:65 - request Naumber 1
+2015-08-07 08:27:12 INFO  RequestManager:54 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 08:27:12 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 08:27:12 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 08:27:12 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 08:27:12 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 08:27:12 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 08:27:34 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:28:43 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:28:43 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:28:43 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:28:43 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:28:43 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:28:43 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:28:43 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:28:43 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:28:43 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:28:47 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:32 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:32:32 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:32:32 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:32:32 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:32:32 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:32:32 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:32 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:32:32 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:32:32 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:32:32 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:41 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:32:41 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:32:41 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:32:41 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:32:41 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:32:41 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:41 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:32:41 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:32:41 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:32:41 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:32:41 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:32:41 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:32:41 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:32:41 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:32:41 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:41 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:32:41 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:32:41 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:32:42 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:42 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:55 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:32:55 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:32:55 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:32:55 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:32:55 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:32:55 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:32:55 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:32:55 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:32:55 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:32:56 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:33:58 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:33:58 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:33:58 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:33:58 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:33:58 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:33:58 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:33:58 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:33:58 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:33:58 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:33:58 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:35:43 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:35:43 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:35:43 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:35:43 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:35:43 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:35:43 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile1.properties
+2015-08-07 10:35:43 ERROR RequestManager:61 - error on creating requst object Cannot locate configuration source propertyFile1.properties
+2015-08-07 10:35:43 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:35:43 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:35:43 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:35:43 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:35:44 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:36:22 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 10:36:22 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 10:36:22 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 10:36:22 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 10:36:22 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:36:22 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-07 10:36:22 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-07 10:36:22 INFO  RequestManager:69 - request Naumber 2
+2015-08-07 10:36:22 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@2
+2015-08-07 10:36:22 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 10:36:22 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:36:22 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:36:22 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:36:22 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 10:36:22 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:36:22 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 10:36:22 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:36:22 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 10:36:22 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 10:36:22 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 15:45:34 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 15:45:34 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 15:45:34 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 15:45:34 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 15:45:34 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 15:45:34 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-07 15:45:34 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-07 15:45:34 INFO  RequestManager:69 - request Naumber 2
+2015-08-07 15:45:34 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@2
+2015-08-07 15:45:34 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 15:45:34 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-07 15:45:34 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-07 15:45:34 INFO  RequestManager:69 - request Naumber 3
+2015-08-07 15:45:34 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@3
+2015-08-07 15:45:34 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 15:45:34 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=camarathunga&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 15:45:34 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 15:45:34 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 15:45:34 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 15:45:34 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 15:45:34 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 15:45:34 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 15:45:34 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 15:45:34 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 15:45:34 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 15:45:34 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 15:45:34 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 15:45:44 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=camarathunga&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 15:45:44 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 15:45:44 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 16:10:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-07 16:10:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-07 16:10:27 INFO  RequestManager:69 - request Naumber 1
+2015-08-07 16:10:27 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-07 16:10:27 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 16:10:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-07 16:10:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-07 16:10:27 INFO  RequestManager:69 - request Naumber 2
+2015-08-07 16:10:27 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@2
+2015-08-07 16:10:27 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 16:10:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-07 16:10:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-07 16:10:27 INFO  RequestManager:69 - request Naumber 3
+2015-08-07 16:10:27 INFO  RequestManager:58 - create objectcom.virtusa.api.requests.RESTRequest@3
+2015-08-07 16:10:27 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-07 16:10:27 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 16:10:27 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 16:10:27 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-07 16:10:27 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 16:10:27 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 16:10:27 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-07 16:10:27 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 16:10:27 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 16:10:27 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 16:10:27 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-07 16:10:27 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 16:10:27 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-07 16:10:27 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 16:10:27 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-07 16:10:38 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata

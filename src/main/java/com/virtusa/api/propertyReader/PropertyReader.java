@@ -32,8 +32,6 @@ public class PropertyReader {
 	}
 	
 	
-	
-	
 	public RequestComponents createRequestComponents(Configuration config){
 		RequestComponents requestComponents = new RequestComponents();
 		requestComponents.setUrl(config.getString("url"));

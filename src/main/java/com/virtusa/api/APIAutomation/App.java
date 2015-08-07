@@ -11,6 +11,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.log4j.Logger;
 
 import com.virtusa.api.propertyReader.PropertyReader;
+import com.virtusa.api.requestmanager.RequestManager;
 import com.virtusa.api.requests.RESTRequest;
 import com.virtusa.api.requests.Request;
 
@@ -81,16 +82,25 @@ public class App
 		} catch (ConfigurationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
+		}
     	PropertyReader propReader = new PropertyReader();
-    	Request request = new RESTRequest();
+    	
     	try {
     		request=propReader.createRequestObj("propertyFile.properties");
 		} catch (ConfigurationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-    	System.out.println(request.getRequestComponents().getRequestMethod());
+		}*/
+    	Request request = new Request();
+    	System.out.println("start");
+    	RequestManager requestManager = new RequestManager();
+    	request =  requestManager.createRequest("propertyFile.properties");
+    	requestManager.send(request);
+    	request =  requestManager.createRequest("propertyFile2.properties");
+       	requestManager.send(request);
+       	request =  requestManager.createRequest("propertyFile3.properties");
+    	requestManager.send(request);
+    	System.out.println("finish");
     }
     
 }

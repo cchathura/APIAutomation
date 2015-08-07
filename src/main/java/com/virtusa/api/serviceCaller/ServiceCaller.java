@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import com.virtusa.api.requestmanager.RequestObserver;
 import com.virtusa.api.requests.Request;
 
 public interface ServiceCaller extends Runnable {
@@ -35,7 +36,7 @@ public String callService() throws IOException;
  * @param request
  */
 public void setRequest(Request request);
-	
+public void addObserver(RequestObserver observerObj);
 	
 
 

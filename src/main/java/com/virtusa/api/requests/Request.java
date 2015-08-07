@@ -2,7 +2,7 @@ package com.virtusa.api.requests;
 
 import com.virtusa.api.serviceCaller.ServiceRequestProperties;
 
-public abstract class Request {
+public class Request {
 
 	private String url;
 	private int requestNumber;

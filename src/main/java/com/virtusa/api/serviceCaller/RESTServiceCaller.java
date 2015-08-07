@@ -5,20 +5,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.ProtocolException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Observable;
-import java.util.Observer;
 
 import org.apache.log4j.Logger;
 
+import com.virtusa.api.requestmanager.RequestObserver;
 import com.virtusa.api.requests.Request;
 import com.virtusa.api.requests.Respond;
 
 public class RESTServiceCaller extends Observable implements ServiceCaller {
 	private ServiceRequestProperties requestProperties;
 	private HttpURLConnection httpUrlConnection;
-	private List<Observer> observersList; 
+	private List<RequestObserver> observersList = new ArrayList<RequestObserver>(); 
 	private Respond respond;
 	private Request request;
 	
@@ -46,12 +47,16 @@ public class RESTServiceCaller extends Observable implements ServiceCaller {
 	 */
 	private void setRequestProperties(){
 	try {
-		httpUrlConnection.setRequestMethod(requestProperties.getRequestMethod());
-		logger.info("Set request Method to "+ requestProperties.getRequestMethod());
-		for (Map.Entry<String, String> entry : requestProperties.getRequestProperties().entrySet())
+		httpUrlConnection.setRequestMethod(request.getRequestComponents().getRequestMethod());
+		logger.info("Set request Method to "+ request.getRequestComponents().getRequestMethod());
+		for (Map.Entry<String, String> entry : request.getRequestComponents().getRequestProperties().entrySet())
 		{
-		   httpUrlConnection.setRequestProperty(entry.getKey(), entry.getValue());
-		   logger.info("set request Property "+entry.getKey()+ " "+ entry.getValue());
+			String[] requestProArr = entry.getValue().split(":");
+			if(requestProArr.length>1){
+			
+		   httpUrlConnection.setRequestProperty(requestProArr[0].trim(), requestProArr[1].trim());
+		   logger.info("set request Property "+requestProArr[0]+" "+requestProArr[1]);
+			}
 		} 
 		
 		
@@ -61,7 +66,7 @@ public class RESTServiceCaller extends Observable implements ServiceCaller {
 	}
 	}
 	
-	public void addObserver(Observer observerObj){
+	public void addObserver(RequestObserver observerObj){
 		observersList.add(observerObj);
 		logger.info("add Observer to observerList");
 	}
@@ -73,6 +78,7 @@ public class RESTServiceCaller extends Observable implements ServiceCaller {
 		String responseBody="";
 		int resCode=200;
 		createConnection();
+		setRequestProperties();
 		resCode=httpUrlConnection.getResponseCode();
 		if(resCode!=200){
 			String respondArray[] = {String.valueOf(resCode),""}; 
@@ -98,8 +104,8 @@ public class RESTServiceCaller extends Observable implements ServiceCaller {
 	 * @throws IOException
 	 */
 	private void createConnection() throws IOException{
- httpUrlConnection = (HttpURLConnection) requestProperties.getUrl().openConnection();
- logger.info("create connection on "+requestProperties.getUrl().toString());
+ httpUrlConnection = (HttpURLConnection) request.getRequestComponents().getURL().openConnection();
+ logger.info("create connection on "+request.getRequestComponents().getURL().toString());
 	}
 	
 	/**
@@ -151,8 +157,8 @@ public class RESTServiceCaller extends Observable implements ServiceCaller {
 
 	public void notifyObservers(){
 		//notify the managers
-		for (Observer observerObj : observersList) {
-			observerObj.update(this,respond);
+		for (RequestObserver observerObj : observersList) {
+			observerObj.update(this.request,respond);
 		}
 	}
 	
@@ -160,9 +166,11 @@ public class RESTServiceCaller extends Observable implements ServiceCaller {
 	 * @throws IOException
 	 */
 	public void createRespond() throws IOException{
+		respond = new Respond();
 		String[] resArray =getHttpResponse();
 		respond.setStatusCode(Integer.valueOf(resArray[0]));
 		respond.setRespond(resArray[1]);
+		
 		
 	}
 }

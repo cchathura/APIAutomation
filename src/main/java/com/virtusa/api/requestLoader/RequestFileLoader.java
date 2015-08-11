@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.naming.spi.DirectoryManager;
+
 import org.apache.log4j.Logger;
 
 import com.virtusa.api.constants.Constants;
@@ -36,10 +38,21 @@ public class RequestFileLoader {
 		Map<String,String> requestPropertyFile = new HashMap<String, String>();
 		List<File> requestDirectoryies = getDirectoryies(Dir);
 		for (File file : requestDirectoryies) {
-			File f = new File(file.getAbsoluteFile()+File.separator+Constants.REQUEST_PPOPERTY_FILE);
-			if(f.exists() && !f.isDirectory()) {
-			requestPropertyFile.put(file.getName(),file.getAbsolutePath()+File.separator+Constants.REQUEST_PPOPERTY_FILE);
+			File[] filesinDir = null;
+			if(file.exists() && file.isDirectory()){
+				filesinDir = file.listFiles();
 			}
+			if(filesinDir !=null){
+				for (File filedir : filesinDir) {
+					if(filedir.exists() && filedir.isFile()&& filedir.getName().contains(Constants.REQUEST_PROPERTY_FILE_POST_FIX)){
+						requestPropertyFile.put(filedir.getName(), filedir.getAbsolutePath());
+					}
+				}
+			}
+			//File f = new File(file.getAbsoluteFile()+File.separator+Constants.REQUEST_PPOPERTY_FILE);
+			/*if(f.exists() && !f.isDirectory()) {
+			requestPropertyFile.put(f.getName(),f.getAbsolutePath());
+			}*/
 		}
 		return requestPropertyFile;
 	}

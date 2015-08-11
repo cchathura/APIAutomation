@@ -1151,3 +1151,1008 @@ org.xml.sax.SAXParseException: The processing instruction target matching "[xX][
 2015-08-07 16:10:27 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
 2015-08-07 16:10:27 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
 2015-08-07 16:10:38 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:21:37 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 14:21:37 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 14:21:37 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 14:21:37 INFO  RequestManager:57 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-10 14:21:37 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:21:37 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 14:21:37 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 14:21:37 INFO  RequestManager:68 - request Naumber 2
+2015-08-10 14:21:37 INFO  RequestManager:57 - create objectcom.virtusa.api.requests.RESTRequest@2
+2015-08-10 14:21:37 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:21:37 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 14:21:37 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 14:21:37 INFO  RequestManager:68 - request Naumber 3
+2015-08-10 14:21:37 INFO  RequestManager:57 - create objectcom.virtusa.api.requests.RESTRequest@3
+2015-08-10 14:21:37 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:21:37 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:21:37 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:21:37 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:21:37 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:21:37 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:21:37 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:21:37 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:21:37 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:21:37 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:21:37 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:21:37 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:21:37 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:21:52 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:22:37 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:22:37 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:24:54 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 14:24:54 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 14:24:54 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 14:24:54 INFO  RequestManager:57 - create objectcom.virtusa.api.requests.RESTRequest@1
+2015-08-10 14:24:54 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:24:54 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 14:24:54 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 14:24:54 INFO  RequestManager:68 - request Naumber 2
+2015-08-10 14:24:54 INFO  RequestManager:57 - create objectcom.virtusa.api.requests.RESTRequest@2
+2015-08-10 14:24:54 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:24:54 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 14:24:54 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 14:24:54 INFO  RequestManager:68 - request Naumber 3
+2015-08-10 14:24:54 INFO  RequestManager:57 - create objectcom.virtusa.api.requests.RESTRequest@3
+2015-08-10 14:24:54 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:24:54 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:24:54 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:24:54 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:24:54 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:24:54 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:24:54 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:24:54 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:24:54 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:24:54 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:24:54 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:24:54 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:24:54 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:24:54 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:24:54 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:25:06 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:33:13 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 14:33:13 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 14:33:13 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 14:43:40 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 14:43:40 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 14:43:40 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 14:43:40 INFO  RequestManager:57 - create object{"requestMethod":null,"requestNumber":1,"url":null}
+2015-08-10 14:43:40 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:43:40 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 14:43:40 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 14:43:40 INFO  RequestManager:68 - request Naumber 2
+2015-08-10 14:43:40 INFO  RequestManager:57 - create object{"requestMethod":null,"requestNumber":2,"url":null}
+2015-08-10 14:43:40 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:43:40 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 14:43:40 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 14:43:40 INFO  RequestManager:68 - request Naumber 3
+2015-08-10 14:43:40 INFO  RequestManager:57 - create object{"requestMethod":null,"requestNumber":3,"url":null}
+2015-08-10 14:43:40 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:43:40 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:43:40 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:43:40 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:43:40 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:43:40 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:43:40 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:43:40 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:43:40 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:43:40 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:43:40 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:43:40 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:43:40 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:43:41 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:43:41 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:43:51 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:50:57 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 14:50:57 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 14:50:57 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 14:50:57 INFO  RequestManager:57 - create object{"requestMethod":"GET","requestNumber":1,"url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"}
+2015-08-10 14:50:57 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:50:57 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 14:50:57 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 14:50:57 INFO  RequestManager:68 - request Naumber 2
+2015-08-10 14:50:57 INFO  RequestManager:57 - create object{"requestMethod":"GET","requestNumber":2,"url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"}
+2015-08-10 14:50:57 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:50:57 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 14:50:57 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 14:50:57 INFO  RequestManager:68 - request Naumber 3
+2015-08-10 14:50:57 INFO  RequestManager:57 - create object{"requestMethod":"GET","requestNumber":3,"url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"}
+2015-08-10 14:50:57 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 14:50:57 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:50:57 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 14:50:57 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:50:57 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:50:57 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:50:57 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 14:50:57 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:50:57 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:50:57 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:50:57 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 14:50:57 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:50:57 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 14:50:58 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:50:58 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 14:51:08 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:01:13 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:01:13 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:01:13 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 15:01:13 INFO  RequestManager:57 - create object{"requestNumber":1,"url":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"}}
+2015-08-10 15:01:13 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:01:13 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:01:13 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:01:13 INFO  RequestManager:68 - request Naumber 2
+2015-08-10 15:01:13 INFO  RequestManager:57 - create object{"requestNumber":2,"url":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"}}
+2015-08-10 15:01:13 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:01:13 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:01:13 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:01:13 INFO  RequestManager:68 - request Naumber 3
+2015-08-10 15:01:13 INFO  RequestManager:57 - create object{"requestNumber":3,"url":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"}}
+2015-08-10 15:01:13 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:01:13 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:01:13 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:01:13 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:01:13 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:01:13 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:01:13 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:01:13 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:01:13 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:01:13 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:01:13 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:01:13 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:01:13 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:01:13 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:01:13 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:01:24 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:03:33 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:03:33 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:03:33 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 15:03:33 INFO  RequestManager:57 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:03:33 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:03:33 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:03:33 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:03:33 INFO  RequestManager:68 - request Naumber 2
+2015-08-10 15:03:33 INFO  RequestManager:57 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:03:33 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:03:33 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:03:33 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:03:33 INFO  RequestManager:68 - request Naumber 3
+2015-08-10 15:03:33 INFO  RequestManager:57 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:03:33 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:03:33 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:03:33 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:03:33 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:03:33 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:03:33 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:03:33 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:03:33 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:03:33 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:03:33 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:03:33 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:03:33 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:03:33 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:03:34 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:03:34 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:03:44 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:10:53 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:10:53 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:10:53 INFO  RequestManager:68 - request Naumber 1
+2015-08-10 15:10:53 INFO  RequestManager:57 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:10:53 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:10:53 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:10:53 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:10:53 INFO  RequestManager:68 - request Naumber 2
+2015-08-10 15:10:53 INFO  RequestManager:57 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:10:53 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:10:53 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:10:53 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:10:53 INFO  RequestManager:68 - request Naumber 3
+2015-08-10 15:10:53 INFO  RequestManager:57 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:10:53 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:10:53 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:10:53 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:10:53 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:10:53 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:10:53 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:10:53 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:10:53 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:10:53 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:10:53 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:10:53 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:10:53 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:10:53 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:10:54 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:10:54 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:11:05 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:25:59 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:25:59 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:25:59 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:25:59 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:25:59 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:25:59 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:25:59 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:25:59 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:25:59 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:25:59 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:25:59 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:25:59 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:25:59 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:25:59 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:25:59 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:25:59 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:25:59 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:25:59 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:25:59 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:25:59 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:25:59 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:25:59 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:25:59 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:25:59 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:25:59 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:25:59 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:25:59 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:26:00 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:26:00 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:26:10 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:26:34 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:26:34 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:26:34 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:26:34 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:26:34 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:26:34 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:26:34 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:26:34 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:26:34 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:26:34 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:26:34 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:26:34 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:26:34 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:26:34 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:26:34 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:26:34 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:26:34 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:26:34 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:26:34 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:26:34 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:26:34 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:26:34 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:26:34 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:26:34 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:26:34 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:26:34 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:26:34 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:26:34 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:26:34 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:26:35 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:28:10 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:28:10 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:28:10 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:28:10 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:28:10 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:28:10 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:28:10 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:28:10 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:28:10 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:28:10 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:28:10 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:28:10 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:28:10 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:28:10 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:28:10 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:28:10 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:28:10 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:28:10 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:28:10 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:28:10 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:28:10 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:28:10 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:28:10 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:28:10 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:28:10 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:28:10 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:28:10 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:28:11 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:28:11 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:28:21 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:29:30 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:29:30 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:29:30 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:29:30 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:29:30 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:29:30 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:29:30 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:29:30 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:29:30 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:29:30 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:29:30 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:29:30 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:29:30 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:29:30 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:29:30 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:29:30 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:29:30 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:29:30 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:29:30 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:29:30 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:29:30 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:29:30 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:29:30 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:29:30 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:29:30 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:29:30 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:29:30 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:29:30 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:29:30 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:29:41 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-10 15:34:21 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:34:21 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:34:21 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:34:21 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:34:21 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:34:21 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:34:21 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:34:21 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:34:21 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:34:21 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:34:21 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:34:21 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:34:21 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:34:21 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:34:21 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:34:21 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:34:21 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:34:22 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:35:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:35:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:35:27 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:35:27 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:35:27 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:35:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:35:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:35:27 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:35:27 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:35:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:35:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:35:27 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:35:27 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:35:27 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:35:27 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:35:27 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:35:27 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:35:28 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:37:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:37:01 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:37:01 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:37:01 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:37:01 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:37:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:37:01 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:37:01 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:37:01 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:37:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:37:01 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:37:01 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:37:01 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:37:01 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:37:01 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:37:01 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:37:01 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:37:02 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:40:24 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:40:24 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:40:24 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:40:24 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:40:24 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:40:24 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:40:24 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:40:24 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:40:24 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:40:24 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:40:24 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:40:24 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:40:24 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:40:24 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:40:24 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:40:24 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:40:24 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:40:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:43:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:43:01 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:43:01 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:43:01 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:43:01 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:43:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:43:01 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:43:01 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:43:01 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:43:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:43:01 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:43:01 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:43:01 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:43:01 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:43:01 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:43:01 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:43:01 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:43:02 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:43:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:43:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:43:27 INFO  RequestManager:69 - request Naumber 1
+2015-08-10 15:43:27 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:43:27 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:43:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:43:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:43:27 INFO  RequestManager:69 - request Naumber 2
+2015-08-10 15:43:27 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:43:27 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:43:27 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:43:27 INFO  RequestManager:69 - request Naumber 3
+2015-08-10 15:43:27 INFO  RequestManager:58 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:43:27 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:43:27 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:43:27 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:43:27 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:43:27 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:55:50 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 15:55:50 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 15:55:50 INFO  RequestManager:73 - request Naumber 1
+2015-08-10 15:55:50 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 15:55:50 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 15:55:50 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 15:55:50 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 15:55:50 INFO  RequestManager:73 - request Naumber 2
+2015-08-10 15:55:50 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 15:55:50 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 15:55:50 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 15:55:50 INFO  RequestManager:73 - request Naumber 3
+2015-08-10 15:55:50 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 15:55:50 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 15:55:50 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 15:55:50 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 15:55:50 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 15:55:50 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:02:37 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 16:02:37 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 16:02:37 INFO  RequestManager:73 - request Naumber 1
+2015-08-10 16:02:37 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 16:02:37 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 16:02:37 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 16:02:37 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 16:02:37 INFO  RequestManager:73 - request Naumber 2
+2015-08-10 16:02:37 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 16:02:37 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 16:02:37 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 16:02:37 INFO  RequestManager:73 - request Naumber 3
+2015-08-10 16:02:37 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 16:02:37 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:02:37 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 16:02:37 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 16:02:37 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 16:02:38 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:02:49 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 16:02:49 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 16:02:49 INFO  RequestManager:73 - request Naumber 1
+2015-08-10 16:02:49 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 16:02:49 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 16:02:49 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 16:02:49 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 16:02:49 INFO  RequestManager:73 - request Naumber 2
+2015-08-10 16:02:49 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 16:02:49 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 16:02:49 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 16:02:49 INFO  RequestManager:73 - request Naumber 3
+2015-08-10 16:02:49 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 16:02:49 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:02:49 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 16:02:49 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 16:02:49 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 16:02:50 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:04:42 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 16:04:42 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 16:04:42 INFO  RequestManager:73 - request Naumber 1
+2015-08-10 16:04:42 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 16:04:42 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 16:04:42 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 16:04:42 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 16:04:42 INFO  RequestManager:73 - request Naumber 2
+2015-08-10 16:04:42 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 16:04:42 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 16:04:42 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 16:04:42 INFO  RequestManager:73 - request Naumber 3
+2015-08-10 16:04:42 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 16:04:42 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:04:42 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 16:04:42 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 16:04:42 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 16:04:42 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:09:26 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 16:09:26 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 16:09:26 INFO  RequestManager:73 - request Naumber 1
+2015-08-10 16:09:26 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 16:09:26 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 16:09:26 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 16:09:26 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 16:09:26 INFO  RequestManager:73 - request Naumber 2
+2015-08-10 16:09:26 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 16:09:26 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 16:09:26 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 16:09:26 INFO  RequestManager:73 - request Naumber 3
+2015-08-10 16:09:26 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 16:09:26 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:09:26 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 16:09:26 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 16:09:26 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 16:09:26 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:09:36 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-10 16:09:36 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-10 16:09:36 INFO  RequestManager:73 - request Naumber 1
+2015-08-10 16:09:36 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-10 16:09:36 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-10 16:09:36 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-10 16:09:36 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-10 16:09:36 INFO  RequestManager:73 - request Naumber 2
+2015-08-10 16:09:36 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-10 16:09:36 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-10 16:09:36 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-10 16:09:36 INFO  RequestManager:73 - request Naumber 3
+2015-08-10 16:09:36 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-10 16:09:36 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-10 16:09:36 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-10 16:09:36 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-10 16:09:36 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-10 16:09:37 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:18:40 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 08:18:40 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 08:18:40 INFO  RequestManager:73 - request Naumber 1
+2015-08-11 08:18:40 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 08:18:40 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 08:18:40 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 08:18:40 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 08:18:40 INFO  RequestManager:73 - request Naumber 2
+2015-08-11 08:18:40 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 08:18:40 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 08:18:40 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 08:18:40 INFO  RequestManager:73 - request Naumber 3
+2015-08-11 08:18:40 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 08:18:40 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:18:40 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 08:18:40 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 08:18:40 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 08:19:04 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:20:13 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 08:20:13 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 08:20:13 INFO  RequestManager:73 - request Naumber 1
+2015-08-11 08:20:13 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 08:20:13 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 08:20:13 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 08:20:13 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 08:20:13 INFO  RequestManager:73 - request Naumber 2
+2015-08-11 08:20:13 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 08:20:13 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 08:20:13 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 08:20:13 INFO  RequestManager:73 - request Naumber 3
+2015-08-11 08:20:13 INFO  RequestManager:62 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 08:20:13 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:20:13 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 08:20:13 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 08:20:13 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 08:20:14 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:29:51 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 08:29:51 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 08:29:51 INFO  RequestManager:81 - request Naumber 1
+2015-08-11 08:29:51 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 08:29:51 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 08:29:51 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 08:29:51 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 08:29:51 INFO  RequestManager:81 - request Naumber 2
+2015-08-11 08:29:51 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 08:29:51 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 08:29:51 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 08:29:51 INFO  RequestManager:81 - request Naumber 3
+2015-08-11 08:29:51 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 08:29:51 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:29:51 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 08:29:51 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 08:29:51 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 08:29:51 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:30:25 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 08:30:25 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 08:30:25 INFO  RequestManager:81 - request Naumber 1
+2015-08-11 08:30:25 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 08:30:25 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 08:30:25 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 08:30:25 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 08:30:25 INFO  RequestManager:81 - request Naumber 2
+2015-08-11 08:30:25 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 08:30:25 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 08:30:25 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 08:30:25 INFO  RequestManager:81 - request Naumber 3
+2015-08-11 08:30:25 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 08:30:25 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 08:30:25 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 08:30:25 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 08:30:25 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 08:30:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:08:31 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 09:08:31 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 09:08:31 INFO  RequestManager:81 - request Naumber 1
+2015-08-11 09:08:31 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 09:08:31 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 09:08:31 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 09:08:31 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 09:08:31 INFO  RequestManager:81 - request Naumber 2
+2015-08-11 09:08:31 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 09:08:31 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 09:08:31 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 09:08:31 INFO  RequestManager:81 - request Naumber 3
+2015-08-11 09:08:31 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 09:08:31 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:08:31 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 09:08:31 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 09:08:31 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 09:08:36 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:08:59 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 09:08:59 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 09:08:59 INFO  RequestManager:81 - request Naumber 1
+2015-08-11 09:08:59 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 09:08:59 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 09:08:59 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 09:08:59 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 09:08:59 INFO  RequestManager:81 - request Naumber 2
+2015-08-11 09:08:59 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 09:08:59 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 09:08:59 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 09:08:59 INFO  RequestManager:81 - request Naumber 3
+2015-08-11 09:08:59 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 09:08:59 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:08:59 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 09:08:59 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 09:08:59 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 09:08:59 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:12:14 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 09:12:14 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 09:12:14 INFO  RequestManager:81 - request Naumber 1
+2015-08-11 09:12:14 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 09:12:14 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 09:12:14 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 09:12:14 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 09:12:14 INFO  RequestManager:81 - request Naumber 2
+2015-08-11 09:12:14 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 09:12:14 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 09:12:14 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 09:12:14 INFO  RequestManager:81 - request Naumber 3
+2015-08-11 09:12:14 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 09:12:14 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:12:14 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 09:12:14 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 09:12:14 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 09:12:15 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:16:53 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile.properties
+2015-08-11 09:16:53 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile.properties
+2015-08-11 09:16:53 INFO  RequestManager:81 - request Naumber 1
+2015-08-11 09:16:53 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":1}
+2015-08-11 09:16:53 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 09:16:53 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile2.properties
+2015-08-11 09:16:53 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile2.properties
+2015-08-11 09:16:53 INFO  RequestManager:81 - request Naumber 2
+2015-08-11 09:16:54 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.2.80.120\/EmployeeAPI\/v1\/employee\/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility"},"requestNumber":2}
+2015-08-11 09:16:54 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is propertyFile3.properties
+2015-08-11 09:16:54 DEBUG ConfigurationUtils:523 - Loading configuration from the path propertyFile3.properties
+2015-08-11 09:16:54 INFO  RequestManager:81 - request Naumber 3
+2015-08-11 09:16:54 INFO  RequestManager:70 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 09:16:54 INFO  RESTServiceCaller:108 - create connection on http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 09:16:54 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 09:16:54 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 09:16:54 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 09:16:54 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.2.80.120/EmployeeAPI/v1/employee/LoginForToken?domain=virtusa&performerLoginId=ykarunarathna&userName=mobilityuser&password=1qaz2wsx@&applicationName=Mobility
+2015-08-11 11:53:46 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 11:54:00 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:27:48 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:27:48 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:27:49 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:27:49 INFO  RequestManager:116 - request Naumber 1
+2015-08-11 13:27:49 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 13:27:49 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:27:49 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:27:49 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:27:49 INFO  RequestManager:116 - request Naumber 2
+2015-08-11 13:27:49 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 13:27:49 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:27:49 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:27:49 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:27:49 INFO  RequestManager:116 - request Naumber 3
+2015-08-11 13:27:49 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 13:27:49 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:27:49 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:27:49 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:27:49 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:27:49 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:27:49 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:27:49 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:27:49 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:27:49 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:27:49 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:27:49 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:27:49 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:27:49 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:28:20 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:28:20 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:28:20 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:29:12 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:29:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:29:12 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:29:12 INFO  RequestManager:116 - request Naumber 1
+2015-08-11 13:29:12 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 13:29:12 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:29:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:29:12 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:29:12 INFO  RequestManager:116 - request Naumber 2
+2015-08-11 13:29:12 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 13:29:12 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:29:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:29:12 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:29:12 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:29:12 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:29:12 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:29:12 INFO  RequestManager:116 - request Naumber 3
+2015-08-11 13:29:12 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:29:12 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 13:29:12 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:29:12 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:29:12 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:29:12 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:29:12 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:29:12 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:29:12 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:29:12 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:29:12 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:29:13 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:29:13 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:29:13 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:30:01 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:30:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:30:01 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:30:01 INFO  RequestManager:116 - request Naumber 1
+2015-08-11 13:30:01 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 13:30:01 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:30:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:30:01 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:30:01 INFO  RequestManager:116 - request Naumber 2
+2015-08-11 13:30:01 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 13:30:01 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:30:01 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:30:01 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:30:01 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:30:01 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:30:01 INFO  RequestManager:116 - request Naumber 3
+2015-08-11 13:30:01 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 13:30:01 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:30:01 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:30:01 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:30:01 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:30:01 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:30:01 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:30:01 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:30:01 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:30:01 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:30:01 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:30:01 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:30:01 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:30:01 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:30:01 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:33:14 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:33:14 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:33:14 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:33:14 INFO  RequestManager:116 - request Naumber 1
+2015-08-11 13:33:14 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 13:33:14 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:33:14 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:33:14 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:33:14 INFO  RequestManager:116 - request Naumber 2
+2015-08-11 13:33:14 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 13:33:14 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:33:14 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:33:14 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:33:14 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:33:14 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:33:14 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:33:14 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:33:14 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:33:14 INFO  RequestManager:116 - request Naumber 3
+2015-08-11 13:33:14 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:33:14 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:33:14 INFO  RequestManager:105 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 13:33:14 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:33:14 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:33:14 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:33:14 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:33:14 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:33:14 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:33:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:33:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:33:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:35:16 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:35:16 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:35:16 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:35:16 INFO  RequestManager:121 - request Naumber 1
+2015-08-11 13:35:16 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 13:35:16 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:35:16 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:35:16 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:35:16 INFO  RequestManager:121 - request Naumber 2
+2015-08-11 13:35:16 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 13:35:16 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:35:16 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:35:16 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:35:16 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:35:16 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:35:16 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:35:16 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:35:16 INFO  RequestManager:121 - request Naumber 3
+2015-08-11 13:35:16 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 13:35:16 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:35:16 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:35:16 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:35:16 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:35:16 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:35:16 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:35:16 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:35:16 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:35:16 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:35:28 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:35:28 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:35:28 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:41:20 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:41:20 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:41:20 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:41:20 INFO  RequestManager:121 - request Naumber 1
+2015-08-11 13:41:20 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 13:41:20 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:41:20 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:41:20 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:41:20 INFO  RequestManager:121 - request Naumber 2
+2015-08-11 13:41:20 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 13:41:20 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:41:20 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:41:20 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:41:20 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:41:20 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:41:20 INFO  RequestManager:121 - request Naumber 3
+2015-08-11 13:41:20 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:41:20 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 13:41:20 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:41:20 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:41:20 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:41:20 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:41:20 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:41:20 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:41:20 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:41:20 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:41:20 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:41:20 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:41:32 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:41:32 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:41:32 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:43:47 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 13:43:47 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:43:47 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 13:43:47 INFO  RequestManager:121 - request Naumber 1
+2015-08-11 13:43:47 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 13:43:47 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:43:47 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:43:47 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 13:43:47 INFO  RequestManager:121 - request Naumber 2
+2015-08-11 13:43:47 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 13:43:47 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:43:47 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:43:47 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 13:43:47 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:43:47 INFO  RequestManager:121 - request Naumber 3
+2015-08-11 13:43:47 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 13:43:47 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 13:43:47 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:43:47 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:43:47 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:43:47 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:43:47 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:43:47 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:43:47 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:43:47 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:43:47 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 13:43:47 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 13:43:47 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 13:43:58 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:43:58 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 13:43:58 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 14:59:12 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 14:59:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 14:59:12 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 14:59:12 INFO  RequestManager:121 - request Naumber 1
+2015-08-11 14:59:12 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 14:59:12 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 14:59:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 14:59:12 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 14:59:12 INFO  RequestManager:121 - request Naumber 2
+2015-08-11 14:59:12 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":2}
+2015-08-11 14:59:12 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 14:59:12 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 14:59:12 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 14:59:12 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 14:59:12 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 14:59:12 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 14:59:12 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 14:59:12 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 14:59:12 INFO  RequestManager:121 - request Naumber 3
+2015-08-11 14:59:12 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 14:59:12 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 14:59:12 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":3}
+2015-08-11 14:59:12 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 14:59:12 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 14:59:12 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 14:59:12 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 14:59:12 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 14:59:12 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 14:59:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 14:59:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 14:59:25 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 15:03:18 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 15:03:18 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 15:03:18 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 15:03:18 INFO  RequestManager:121 - request Naumber 1
+2015-08-11 15:03:18 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 15:03:18 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 15:03:18 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 15:03:18 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 15:03:18 INFO  RequestManager:121 - request Naumber 2
+2015-08-11 15:03:18 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/235265\/onboardingdata"},"requestNumber":2}
+2015-08-11 15:03:18 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 15:03:18 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 15:03:18 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 15:03:18 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 15:03:18 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/235265/onboardingdata
+2015-08-11 15:03:18 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 15:03:18 INFO  RequestManager:121 - request Naumber 3
+2015-08-11 15:03:18 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 15:03:18 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/111111\/onboardingdata"},"requestNumber":3}
+2015-08-11 15:03:18 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 15:03:18 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 15:03:18 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 15:03:18 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/111111/onboardingdata
+2015-08-11 15:03:18 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 15:03:18 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 15:03:18 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 15:03:18 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 15:03:18 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 15:03:29 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/111111/onboardingdata
+2015-08-11 15:03:29 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/235265/onboardingdata
+2015-08-11 15:03:30 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 15:08:07 INFO  RequestFileLoader:20 - get directoryes from :C:\Users\camarathunga\Desktop\a
+2015-08-11 15:08:07 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 15:08:07 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\request.properties
+2015-08-11 15:08:07 INFO  RequestManager:121 - request Naumber 1
+2015-08-11 15:08:07 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/14127\/onboardingdata"},"requestNumber":1}
+2015-08-11 15:08:07 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 15:08:07 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 15:08:07 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\34-request.properties
+2015-08-11 15:08:07 INFO  RequestManager:121 - request Naumber 2
+2015-08-11 15:08:07 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/235265\/onboardingdata"},"requestNumber":2}
+2015-08-11 15:08:07 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 15:08:07 DEBUG ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 15:08:07 DEBUG ConfigurationUtils:501 - Loading configuration from the absolute path C:\Users\camarathunga\Desktop\a\New folder\12request.properties
+2015-08-11 15:08:07 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata
+2015-08-11 15:08:07 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/235265/onboardingdata
+2015-08-11 15:08:07 INFO  RequestManager:121 - request Naumber 3
+2015-08-11 15:08:07 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 15:08:07 INFO  RequestManager:110 - create object{"RequestComponents":{"requestProperties":{"requestProperties2":"Accept: application\/json","requestProperties1":"Authorization: Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa"},"requestMethod":"GET","serviceType":"REST","url":"http:\/\/10.64.66.48\/EmployeeAPI\/v1\/employee\/111111\/onboardingdata"},"requestNumber":3}
+2015-08-11 15:08:07 INFO  RESTServiceCaller:71 - add Observer to observerList
+2015-08-11 15:08:07 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 15:08:07 INFO  RESTServiceCaller:108 - create connection on http://10.64.66.48/EmployeeAPI/v1/employee/111111/onboardingdata
+2015-08-11 15:08:07 INFO  RESTServiceCaller:51 - Set request Method to GET
+2015-08-11 15:08:07 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 15:08:07 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 15:08:07 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 15:08:07 INFO  RESTServiceCaller:58 - set request Property Accept  application/json
+2015-08-11 15:08:07 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 15:08:07 INFO  RESTServiceCaller:58 - set request Property Authorization  Bearer 5qmtPksX3fh5XB8p9Vwj7ag7NHoa
+2015-08-11 15:08:18 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/111111/onboardingdata
+2015-08-11 15:08:18 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/235265/onboardingdata
+2015-08-11 15:08:19 INFO  RESTServiceCaller:116 - connection cosedsun.net.www.protocol.http.HttpURLConnection:http://10.64.66.48/EmployeeAPI/v1/employee/14127/onboardingdata

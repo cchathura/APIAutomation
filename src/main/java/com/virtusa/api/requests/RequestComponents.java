@@ -5,6 +5,8 @@ import java.net.URL;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
 
 import com.virtusa.api.serviceCaller.RESTServiceCaller;
 
@@ -66,5 +68,14 @@ public void setServiceType(String serviceType) {
 	this.serviceType = serviceType;
 }
 
+public String toString() //what is  this function doing
+{
+	 JSONObject obj=new JSONObject();
+obj.put("url",this.getUrl());
+obj.put("serviceType",this.getServiceType());
+obj.put("requestMethod",this.getRequestMethod());
+obj.put("requestProperties",this.getRequestProperties());
 
+   return JSONValue.toJSONString(obj);
+} 
 }

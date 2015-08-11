@@ -1,5 +1,8 @@
 package com.virtusa.api.requests;
 
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+
 import com.virtusa.api.serviceCaller.ServiceRequestProperties;
 
 public class Request {
@@ -77,4 +80,13 @@ public class Request {
 	        return true;
 	    }
 		
+	 public String toString() //what is  this function doing
+     {
+		 JSONObject obj=new JSONObject();
+     obj.put("RequestComponents",this.getRequestComponents());
+     obj.put("requestNumber",this.getRequestnumber());
+    // obj.put("requestMethod",this.requestComponents.requestMethod);
+     
+        return JSONValue.toJSONString(obj).toString();
+     } 
 }

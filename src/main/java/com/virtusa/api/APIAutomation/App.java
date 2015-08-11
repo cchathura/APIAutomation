@@ -1,19 +1,15 @@
 package com.virtusa.api.APIAutomation;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
-import org.apache.commons.configuration.Configuration;
-import org.apache.commons.configuration.ConfigurationException;
-import org.apache.commons.configuration.ConfigurationFactory;
-import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.log4j.Logger;
 
-import com.virtusa.api.propertyReader.PropertyReader;
+import com.virtusa.api.requestLoader.RequestFileLoader;
 import com.virtusa.api.requestmanager.RequestManager;
-import com.virtusa.api.requests.RESTRequest;
 import com.virtusa.api.requests.Request;
+import com.virtusa.api.requests.Respond;
 
 /**
  * Hello world!
@@ -22,6 +18,9 @@ import com.virtusa.api.requests.Request;
 public class App 
 {
 	final static Logger logger = Logger.getLogger(App.class);
+    /**
+     * @param args
+     */
     public static void main( String[] args )
     {
     	
@@ -91,16 +90,27 @@ public class App
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}*/
-    	Request request = new Request();
+    	/*Request request = new Request();
     	System.out.println("start");
     	RequestManager requestManager = new RequestManager();
     	request =  requestManager.createRequest("propertyFile.properties");
     	requestManager.send(request);
     	request =  requestManager.createRequest("propertyFile2.properties");
-       	requestManager.send(request);
+       	//requestManager.send(request);
        	request =  requestManager.createRequest("propertyFile3.properties");
-    	requestManager.send(request);
-    	System.out.println("finish");
+    	//requestManager.send(request);
+    	System.out.println("finish");*/
+    	Map<String,String> files = new HashMap<String,String>();
+    	RequestFileLoader requestFileLoader = new RequestFileLoader();
+    	files=requestFileLoader.getAllPropertyFiles("C:\\Users\\camarathunga\\Desktop\\a");
+    	RequestManager requestManager = new RequestManager();
+    	Map<Request, Respond> results = new HashMap<Request, Respond>();
+    	results=requestManager.send(files);
+    	for (Entry<Request, Respond> result : results.entrySet()) {
+			System.out.println(result.getValue());
+		}
+    	
+    	
     }
     
 }
